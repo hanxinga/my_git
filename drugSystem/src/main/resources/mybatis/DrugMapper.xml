@@ -22,7 +22,6 @@
 
 
 
-
     <select id="purchaseDrugById" resultType="Drug">
         UPDATE drug SET purchaseStatus = "1" WHERE id =#{id}
     </select>
@@ -38,6 +37,7 @@
     <select id="removePurchaseById" resultType="Drug">
         UPDATE drug SET purchaseStatus = "0" WHERE id =#{id}
     </select>
+
 
 
 </mapper>

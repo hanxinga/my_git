@@ -1,0 +1,8 @@
+{
+  "name": "drugSystem",
+  "version": "1.0.0",
+  "dependencies": {
+    "element-plus": "^2.7.0",
+    "vue": "^3.4.23"
+  }
+}

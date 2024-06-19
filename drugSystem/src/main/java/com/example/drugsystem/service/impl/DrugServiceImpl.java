@@ -43,6 +43,7 @@ public class DrugServiceImpl implements DrugService {
     public String removePurchaseById(int id) {
         return drugMapper.removePurchaseById(id);
     }
+
     @Override
     public List<Drug> PurchaseRecord() {
         return drugMapper.PurchaseRecord();
@@ -52,5 +53,11 @@ public class DrugServiceImpl implements DrugService {
     public int checkPurchaseRecordById(int id) {
         return drugMapper.PurchaseRecordById(id);
     }
+
+
+
+
+
+
 
 }

@@ -4,7 +4,8 @@ import 'element-plus/theme-chalk/index.css'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-
+import VueViewer from 'v-viewer';
+import 'viewerjs/dist/viewer.css';
 const debounce = (fn, delay) => {
     let timer
     return (...args) => {
@@ -24,5 +25,4 @@ window.ResizeObserver = class ResizeObserver extends _ResizeObserver{
         super(callback);
     }
 }
-createApp(App).use(store).use(router).use(ElementPlus).mount('#app')
-
+createApp(App).use(VueViewer).use(store).use(router).use(ElementPlus).mount('#app')

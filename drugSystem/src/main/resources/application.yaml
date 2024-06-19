@@ -5,5 +5,13 @@ spring:
     username: root
     password: 709802
 mybatis:
-  type-aliases-package: com.example.drugsystem.pojo
+  type-aliases-package: com.example.drugSystem.pojo
   mapper-locations: classpath:mybatis/*.xml
+server:
+  port: 8080
+
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      database: 0

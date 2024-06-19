@@ -2,7 +2,6 @@ package com.example.drugsystem.mapper;
 
 import com.example.drugsystem.pojo.Drug;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 

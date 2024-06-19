@@ -11,5 +11,9 @@ public class Drug {
     private int id;
     private String name;
     private double price;
-
+    private int purchaseStatus;
+//    private Date Production;
+//    private String manufacturer;
+//    private int inventory;
+//    private Date validity;
 }

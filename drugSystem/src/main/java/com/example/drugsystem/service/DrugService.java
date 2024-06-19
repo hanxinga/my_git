@@ -17,7 +17,10 @@ public interface DrugService {
     List<Drug> shoppingCart();
 
     String removePurchaseById(int id);
+
     List<Drug> PurchaseRecord();
+
+
 
     int checkPurchaseRecordById(int id);
 }
